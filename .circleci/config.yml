@@ -137,7 +137,7 @@ jobs:
       <<: *develop_environment
     <<: *deploy_steps
 
-   backstop-history-develop:
+  backstop-history-develop:
     environment:
       <<: *common_environment
       <<: *develop_environment
