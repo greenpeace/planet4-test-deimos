@@ -3,7 +3,8 @@
 	"description": "Greenpeace P4 test-deimos",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-planet-5000"
+		"greenpeace/planet4-master-theme" : "dev-planet-5000",
+		"greenpeace/planet4-child-theme-handbook" : "dev-planet-5000"
 	},
 	"data_from": "international",
 	"scripts": {
