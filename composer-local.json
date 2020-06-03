@@ -3,7 +3,9 @@
 	"description": "Greenpeace P4 test-deimos",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-master",
+		"greenpeace/planet4-master-theme" : "dev-planet-5036",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5036",
+		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-5036",
 		"greenpeace/planet4-plugin-medialibrary" : "dev-master",
 		"wpackagist-plugin/debug-bar":"1.*",
 		"10up/debug-bar-elasticpress":"1.*"
