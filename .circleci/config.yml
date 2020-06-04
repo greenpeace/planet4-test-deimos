@@ -3,7 +3,6 @@ version: 2.1
 defaults: &defaults
   docker:
     - image: greenpeaceinternational/p4-builder:latest
-
 job_environments:
   common_environment: &common_environment
     APP_HOSTPATH: test-deimos
@@ -20,7 +19,6 @@ job_environments:
     NEWRELIC_APPNAME: P4 test-deimos Development
     WP_DB_NAME: planet4-testdeim_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-deimos-stateless-develop
-
 job_definitions:
   build_steps: &build_steps
     working_directory: ~/
@@ -147,7 +145,6 @@ jobs:
       <<: *common_environment
       <<: *develop_environment
     <<: *backstop_compare_steps
-
   data-sync:
     <<: *defaults
     environment:
@@ -180,11 +177,10 @@ workflows:
           <<: *develop_common
       - build-branch:
           <<: *develop_common
-          requires:
-            - backstop-history-develop
       - deploy-develop:
           <<: *develop_common
           requires:
+            - backstop-history-develop
             - build-branch
       - data-sync:
           <<: *develop_common
