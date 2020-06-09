@@ -5,8 +5,7 @@
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-planet-5036",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5036",
-		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-5036",
-		"greenpeace/planet4-plugin-medialibrary" : "dev-master"
+		"greenpeace/planet4-plugin-engagingnetworks" : "dev-planet-5036"
 	},
 	"scripts": {
 		"site:custom" : []
