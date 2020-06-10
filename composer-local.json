@@ -7,6 +7,7 @@
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5036",
 		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-planet-5036"
 	},
+	"data_from": "international",
 	"scripts": {
 		"site:custom" : []
 	}
