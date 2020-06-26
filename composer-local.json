@@ -5,8 +5,7 @@
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master",
-		"greenpeace/planet4-child-theme-handbook": "dev-navigation-line-height"
+		"greenpeace/planet4-plugin-gutenberg-engagingnetworks" : "dev-master"
 	},
 	"data_from": "international",
 	"scripts": {
