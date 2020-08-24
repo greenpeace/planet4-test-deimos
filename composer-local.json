@@ -4,9 +4,9 @@
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-faster-blocks-report"
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-4808-functional"
 	},
-	"data_from": "international",
+	"data_from": "denmark",
 	"scripts": {
 		"site:custom" : []
 	}
