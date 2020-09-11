@@ -26,7 +26,7 @@ job_environments:
 job_definitions:
   visualtests_reference_steps: &visualtests_reference_steps
     docker:
-      - image: greenpeaceinternational/planet4-backstop:lazyload
+      - image: greenpeaceinternational/planet4-backstop:latest
     working_directory: /src
     steps:
       - run: ./checkout.sh
@@ -42,7 +42,7 @@ job_definitions:
 
   visualtests_compare_steps: &visualtests_compare_steps
     docker:
-      - image: greenpeaceinternational/planet4-backstop:lazyload
+      - image: greenpeaceinternational/planet4-backstop:latest
     working_directory: /src
     parameters:
       notify:
@@ -131,7 +131,7 @@ job_definitions:
       - attach_workspace:
           at: /tmp/workspace
       - run: activate-gcloud-account.sh
-      - run: BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num) make -j2 deploy
+      - run: BUILD_TAG=build-$(cat /tmp/workspace/var/circle-build-num) make deploy
       - when:
           condition: << parameters.notify >>
           steps:
