@@ -6,7 +6,7 @@
 		"greenpeace/planet4-master-theme" : "dev-master",
 		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5733"
 	},
-	"data_from": "international",
+	"data_from": "denmark",
 	"scripts": {
 		"site:custom" : []
 	}
