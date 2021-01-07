@@ -3,14 +3,14 @@
 	"description": "Greenpeace P4 test-deimos",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme" : "dev-master",
-		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-planet-5733",
+		"greenpeace/planet4-master-theme" : "dev-anti-flicker-selector",
+		"greenpeace/planet4-plugin-gutenberg-blocks" : "dev-master",
 		"greenpeace/planet4-child-theme-nordic" : "dev-develop",
 		"greenpeace/planet4-gpnordic-plugin-portrait" : "dev-develop",
 		"greenpeace/planet4-gpnordic-plugin-gutenberg-blocks": "dev-develop"
 
 	},
-	"data_from": "denmark",
+	"data_from": "international",
 	"scripts": {
 		"site:custom" : []
 	}
