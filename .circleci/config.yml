@@ -222,6 +222,7 @@ jobs:
     environment:
       <<: *common_environment
       <<: *develop_environment
+    <<: *deploy_steps
   data-sync:
     <<: *defaults
     environment:
