@@ -208,6 +208,7 @@ jobs:
     environment:
       <<: *common_environment
       <<: *develop_environment
+      GIT_REF: pin-older-archive-installer
     <<: *build_steps
 
   test-develop:
@@ -221,7 +222,6 @@ jobs:
     environment:
       <<: *common_environment
       <<: *develop_environment
-    <<: *deploy_steps
   data-sync:
     <<: *defaults
     environment:
