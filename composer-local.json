@@ -1,6 +1,6 @@
 {
 	"name": "greenpeace/planet4-test-deimos",
-	"description": "Greenpeace P4 test-deimos",
+	"description": "Greenpeace P4 test-deimos ",
 	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-master-theme" : "dev-anti-flicker-selector",
