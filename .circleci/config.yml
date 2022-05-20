@@ -12,7 +12,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:1817
+    - image: greenpeaceinternational/p4-builder:build-1817
       auth:
         <<: *docker_auth
 
