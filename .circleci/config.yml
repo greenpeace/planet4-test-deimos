@@ -33,7 +33,7 @@ job_environments:
     HELM_RELEASE: planet4-test-deimos
     WP_DB_NAME: planet4-testdeim_wordpress_develop
     WP_STATELESS_BUCKET: planet4-test-deimos-stateless-develop
-    CHART_VERSION: 0.8.24-alpha2
+    CHART_VERSION: 0.8.24-alpha3
 
 
 commands:
