@@ -3,7 +3,7 @@
 	"description": "Greenpeace P4 test-deimos ",
 	"license": "MIT",
 	"require": {
-		"greenpeace/planet4-master-theme": "dev-PLANET-6803_gravity_forms_capabilities_for_editors",
+		"greenpeace/planet4-master-theme": "7",
 		"greenpeace/planet4-plugin-gutenberg-blocks": "dev-gravity_forms_capabilities_for_editors"
 	},
 	"data_from": "brasil",
@@ -45,7 +45,7 @@
 				"version": 7,
 				"dist": {
 					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/b7949f889c4a41d617fcca3f95e77dafbc3fa356.zip"
+					"url": "https://storage.googleapis.com/planet4-packages/planet4-master-theme/2d89aca18c70d334b87f3eb1a277374966c1fdc8.zip"
 				}
 			}
 		}
