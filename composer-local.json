@@ -1,29 +1,9 @@
 {
-	"name": "greenpeace/planet4-test-deimos",
-	"description": "Greenpeace P4 test-deimos ",
-	"license": "MIT",
-	"require": {
-		"greenpeace/planet4-master-theme": "dev-main",
-		"greenpeace/planet4-plugin-gutenberg-blocks": "7"
-	},
-	"data_from": "international",
-	"scripts": {
-		"site:custom": []
-	},
-	"repositories": [
-		{
-			"type": "package",
-			"package": {
-				"name": "greenpeace/planet4-plugin-gutenberg-blocks",
-				"type": "wordpress-plugin",
-				"autoload": null,
-				"extra": null,
-				"version": 7,
-				"dist": {
-					"type": "zip",
-					"url": "https://storage.googleapis.com/planet4-packages/planet4-plugin-gutenberg-blocks/15fc0f7e3d94e6e68665466ac1622c8e79e13e16.zip"
-				}
-			}
-		}
-	]
+  "name": "greenpeace/planet4-test-deimos",
+  "description": "Greenpeace P4 test-deimos",
+  "license": "MIT",
+  "require": {
+    "greenpeace/planet4-master-theme": "dev-main",
+    "greenpeace/planet4-plugin-gutenberg-blocks": "dev-main"
+  }
 }
