@@ -27,7 +27,7 @@ docker_auth: &docker_auth
 
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:update/gsutil-to-gcloud
+    - image: greenpeaceinternational/p4-builder:build-2092
       auth:
         <<: *docker_auth
 
