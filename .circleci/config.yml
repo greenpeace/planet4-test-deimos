@@ -39,6 +39,7 @@ job_environments:
     CONTAINER_PREFIX: planet4-test-deimos
     WP_DB_NAME_PREFIX: planet4-testdeim_wordpress
   develop_environment: &develop_environment
+    GIT_REF: PLANET-7686_upgrade-wp-stateless-to-4.1.x
     APP_ENVIRONMENT: development
     APP_HOSTNAME: www-dev.greenpeace.org
     CLOUDSQL_INSTANCE: p4-develop-k8s
