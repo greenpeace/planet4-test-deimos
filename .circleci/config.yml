@@ -37,6 +37,7 @@ job_environments:
   common_environment: &common_environment
     APP_HOSTPATH: test-deimos
     CONTAINER_PREFIX: planet4-test-deimos
+    GIT_REF: PLANET-7973_upgrade-elasticpress
     WP_DB_NAME_PREFIX: planet4-testdeim_wordpress
   develop_environment: &develop_environment
     APP_ENVIRONMENT: development
